@@ -1,11 +1,12 @@
 # C
-COLOR_GREEN = (239,240, 123)
+COLOR_GREEN = (0, 128, 0)
 COLOR_WHITE = (255, 255, 255)
+COLOR_RED = (173, 22, 10)
 
 # M
 MENU_OPTION = ('NEW GAME 1P',
                'SCORE',
-               'EXIT')
+               'EXIT',)
 
 # W
 WIN_HEIGHT = 848
