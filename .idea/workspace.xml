@@ -4,9 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="933d66e6-f240-4437-b522-ffa3c01ba66b" name="Changes" comment="Foi acrescentado alguns assets e dado inicio a modelagem das opções do menu">
+    <list default="true" id="933d66e6-f240-4437-b522-ffa3c01ba66b" name="Changes" comment="Foram acrescentados interações no menu do game">
+      <change afterPath="$PROJECT_DIR$/Asset/background_1/level1Bg0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/background_1/level1Bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/background_1/level1Bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/background_1/level1Bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/background_1/level1Bg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/background_1/level1Bg5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/background_1/level1Bg6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/background_2/Battleground3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/background_2/fireflys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/background_2/grass&amp;road.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/background_2/grasses.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/background_2/jungle_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/background_2/lianas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/background_2/sky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/background_2/tree_face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/background_2/trees&amp;bushes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Background.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,12 +87,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "feature__level",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Sarradinha/Desktop/Game/Asset",
+    "last_opened_file_path": "C:/Users/Sarradinha/Desktop/Game/Asset/background_2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sarradinha\Desktop\Game\Asset\background_2" />
+      <recent name="C:\Users\Sarradinha\Desktop\Game\Asset\background_1" />
       <recent name="C:\Users\Sarradinha\Desktop\Game\Asset" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -129,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742516292953</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Foram acrescentados interações no menu do game">
+      <option name="closed" value="true" />
+      <created>1742832001499</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742832001499</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +190,7 @@
     <MESSAGE value="Foram adicionados os arquivos a pasta Asset" />
     <MESSAGE value="Foram acrescentados musica e imagem no menu do game" />
     <MESSAGE value="Foi acrescentado alguns assets e dado inicio a modelagem das opções do menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Foi acrescentado alguns assets e dado inicio a modelagem das opções do menu" />
+    <MESSAGE value="Foram acrescentados interações no menu do game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Foram acrescentados interações no menu do game" />
   </component>
 </project>

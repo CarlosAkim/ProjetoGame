@@ -51,9 +51,9 @@ class Menu:
 
                     if events.key == pygame.K_RETURN: # Botão de enter
                         return MENU_OPTION[menu_option]
+
             pygame.display.flip()  # Atualiza nosso Display
 
-            #paramos no minuto 23:11
 
 
     def menu_text(self, text_size: int,
