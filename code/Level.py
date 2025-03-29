@@ -1,4 +1,7 @@
+import pygame.display
+
 from code.Entity import Entity
+from code.EntityFactory import EntityFactory
 
 
 class Level:
@@ -7,6 +10,11 @@ class Level:
         self.name = name
         self.gameMode = gameMode  # Modo de jogo
         self.entity_list: list[Entity] = []
+        self.entity_list.extend(EntityFactory.get_entity("level1Bg"))
 
     def run(self):
-        pass
+        while True:
+            for ent in self.entity_list:
+                self.window.blit(source=ent.surf, dest=ent.rect)
+                ent.move()
+            pygame.display.flip()

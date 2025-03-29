@@ -1,3 +1,4 @@
+from code.Const import WIN_HEIGHT, SPEED_BACKGROUND
 from code.Entity import Entity
 
 
@@ -6,4 +7,13 @@ class Background(Entity):
         super().__init__(name, position)
 
     def move(self):
+        self.rect.centerx -= SPEED_BACKGROUND[self.name]
+        if self.rect.right <= 0:
+            self.rect.left = WIN_HEIGHT
+
+        # Um teste caso o personagem andar
+        if self.name == "level1Bg5":
+            self.rect.centerx -= SPEED_BACKGROUND[self.name]
+            if self.rect.right <= 0:
+                self.rect.left = WIN_HEIGHT
         pass
