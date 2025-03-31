@@ -14,7 +14,12 @@ SPEED_BACKGROUND = {
     'level1Bg2': 2,
     'level1Bg3': 3,
     'level1Bg4': 4,
-    'level1Bg5': 5
+    'level1Bg5': 1,
+}
+
+SPEED_PLAYER={
+    'PlayerRunning1': 3
+
 }
 
 # W

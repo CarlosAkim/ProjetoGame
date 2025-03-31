@@ -1,5 +1,6 @@
 from code.Background import Background
-from code.Const import WIN_HEIGHT
+from code.Const import WIN_HEIGHT, WIN_WIDTH
+from code.Player import Player
 
 
 class EntityFactory:
@@ -13,3 +14,5 @@ class EntityFactory:
                     listBackground.append(Background(f'level1Bg{i}', (0,0)))
                     listBackground.append(Background(f'level1Bg{i}', (WIN_HEIGHT, 0)))
                 return listBackground
+            case 'PlayerRunning':
+                return Player('PlayerRunning1', (10, WIN_WIDTH / 2))

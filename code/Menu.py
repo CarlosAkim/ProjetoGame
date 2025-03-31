@@ -8,7 +8,7 @@ from code.Const import WIN_WIDTH, WIN_HEIGHT, COLOR_GREEN, MENU_OPTION, COLOR_WH
 class Menu:
     def __init__(self, window):
         self.window = window # Nossa Janela
-        self.surf = pygame.image.load("Asset/Battleground1.png") # Nosso background
+        self.surf = pygame.image.load("Asset/Battleground1.png").convert_alpha() # Nosso background
         self.rect = self.surf.get_rect(left=0, top=0) # Desenhamos um retangulo
 
     def run(self):
