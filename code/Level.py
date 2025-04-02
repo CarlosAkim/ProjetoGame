@@ -1,10 +1,11 @@
+import random
 import sys
 
 import pygame.display
 from pygame import Surface, Rect
 from pygame.font import Font
 
-from code.Const import COLOR_WHITE, WIN_WIDTH
+from code.Const import COLOR_WHITE, WIN_WIDTH, EVENT_ENEMY
 from code.Entity import Entity
 from code.EntityFactory import EntityFactory
 
@@ -23,6 +24,9 @@ class Level:
         if isinstance(player, Entity):
             self.entity_list.append(player)
 
+        # Set time
+        pygame.time.set_timer(EVENT_ENEMY, 5000)
+
 
     def run(self):
         pygame.mixer_music.load(f'Asset/{self.name}.wav')
@@ -37,6 +41,9 @@ class Level:
                 if event.type == pygame.QUIT:
                     pygame.quit()
                     sys.exit()
+                if event.type == EVENT_ENEMY:
+                    choice = random.choice(('Enemy1', 'Enemy2'))
+                    self.entity_list.append(EntityFactory.get_entity(choice))
 
             # print text
             self.level_text(14, f'{self.name} - Timeout: {self.timeout / 1000 :.1f}s', COLOR_WHITE, (10, 5))

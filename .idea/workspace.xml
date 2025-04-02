@@ -5,33 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="933d66e6-f240-4437-b522-ffa3c01ba66b" name="Changes" comment="Foi acrescentado interação ao menu do game, e também foram acrescentado algumas novas classes">
-      <change afterPath="$PROJECT_DIR$/Asset/Player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asset/PlayerRunning0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asset/PlayerRunning1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asset/PlayerRunning2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asset/PlayerRunning3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asset/PlayerRunning4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asset/level1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/Enemy1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asset/Enemy2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Skeleton/Skeleton_Crusader_1/PNG/PNG Sequences/Running/0_Skeleton_Crusader_Running_000.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/Skeleton/Skeleton_Crusader_1/PNG/PNG Sequences/Running/0_Skeleton_Crusader_Running_000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Skeleton/Skeleton_Crusader_1/PNG/PNG Sequences/Running/0_Skeleton_Crusader_Running_001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Skeleton/Skeleton_Crusader_1/PNG/PNG Sequences/Running/0_Skeleton_Crusader_Running_002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Skeleton/Skeleton_Crusader_1/PNG/PNG Sequences/Running/0_Skeleton_Crusader_Running_003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Skeleton/Skeleton_Crusader_1/PNG/PNG Sequences/Running/0_Skeleton_Crusader_Running_004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Skeleton/Skeleton_Crusader_1/PNG/PNG Sequences/Running/0_Skeleton_Crusader_Running_005.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Skeleton/Skeleton_Crusader_1/PNG/PNG Sequences/Running/0_Skeleton_Crusader_Running_006.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Skeleton/Skeleton_Crusader_1/PNG/PNG Sequences/Running/0_Skeleton_Crusader_Running_007.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Skeleton/Skeleton_Crusader_1/PNG/PNG Sequences/Running/0_Skeleton_Crusader_Running_008.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Skeleton/Skeleton_Crusader_1/PNG/PNG Sequences/Running/0_Skeleton_Crusader_Running_009.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Skeleton/Skeleton_Crusader_1/PNG/PNG Sequences/Running/0_Skeleton_Crusader_Running_010.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Skeleton/Skeleton_Crusader_1/PNG/PNG Sequences/Running/0_Skeleton_Crusader_Running_011.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Background.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Background.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,21 +61,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.Game.executor": "Run",
-    "Python.Menu.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature__level__minute__57",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Sarradinha/Desktop/Game/Asset",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Menu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature__level__minute__57&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sarradinha/Desktop/Game/Asset&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sarradinha\Desktop\Game\Asset" />
@@ -172,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743256517095</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Foi acrescentado interação ao menu do game, e também foram acrescentado algumas novas classes">
+      <option name="closed" value="true" />
+      <created>1743415081947</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743415081947</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

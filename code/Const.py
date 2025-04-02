@@ -1,7 +1,12 @@
 # C
+import pygame
+
 COLOR_GREEN = (0, 128, 0)
 COLOR_WHITE = (255, 255, 255)
 COLOR_RED = (173, 22, 10)
+
+# E
+EVENT_ENEMY = pygame.USEREVENT + 1
 
 # M
 MENU_OPTION = ('NEW GAME 1P',
@@ -15,6 +20,10 @@ SPEED_BACKGROUND = {
     'level1Bg3': 3,
     'level1Bg4': 4,
     'level1Bg5': 1,
+}
+SPEED_ENEMY = {
+    'Enemy1': 2,
+    'Enemy2': 3
 }
 
 SPEED_PLAYER={
