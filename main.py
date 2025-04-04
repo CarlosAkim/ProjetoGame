@@ -4,4 +4,4 @@ game = Game()
 game.run()
 
 
-# Paramos no minuto 1:01:18
+# Paramos no minuto 25:26

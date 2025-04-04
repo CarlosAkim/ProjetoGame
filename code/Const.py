@@ -8,6 +8,19 @@ COLOR_RED = (173, 22, 10)
 # E
 EVENT_ENEMY = pygame.USEREVENT + 1
 
+ENTITY_HEALTH = {
+    'Enemy1': 50,
+    'Enemy2': 60,
+    'level1Bg0': 999,
+    'level1Bg1': 999,
+    'level1Bg2': 999,
+    'level1Bg3': 999,
+    'level1Bg4': 999,
+    'level1Bg5': 999,
+    'PlayerRunning1': 300
+
+}
+
 # M
 MENU_OPTION = ('NEW GAME 1P',
                'SCORE',

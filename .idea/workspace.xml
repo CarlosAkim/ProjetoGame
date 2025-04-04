@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="933d66e6-f240-4437-b522-ffa3c01ba66b" name="Changes" comment="Foi acrescentado interação ao menu do game, e também foram acrescentado algumas novas classes">
-      <change afterPath="$PROJECT_DIR$/Asset/Enemy1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asset/Enemy2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
+    <list default="true" id="933d66e6-f240-4437-b522-ffa3c01ba66b" name="Changes" comment="Acrescentamos inimigos ao nosso game">
+      <change afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743415081947</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Acrescentamos inimigos ao nosso game">
+      <option name="closed" value="true" />
+      <created>1743609460260</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743609460260</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +199,7 @@
     <MESSAGE value="Foi acrescentado alguns assets e dado inicio a modelagem das opções do menu" />
     <MESSAGE value="Foram acrescentados interações no menu do game" />
     <MESSAGE value="Foi acrescentado interação ao menu do game, e também foram acrescentado algumas novas classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Foi acrescentado interação ao menu do game, e também foram acrescentado algumas novas classes" />
+    <MESSAGE value="Acrescentamos inimigos ao nosso game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Acrescentamos inimigos ao nosso game" />
   </component>
 </project>
