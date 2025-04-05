@@ -36,12 +36,16 @@ SPEED_BACKGROUND = {
 }
 SPEED_ENEMY = {
     'Enemy1': 2,
-    'Enemy2': 3
 }
 
 SPEED_PLAYER={
     'PlayerRunning1': 3
 
+}
+
+# P
+PLAYER_KEY_CUT = {
+    'PlayerRunning1': pygame.K_SPACE
 }
 
 # W

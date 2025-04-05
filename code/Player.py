@@ -1,6 +1,7 @@
 import pygame
-from code.Const import SPEED_PLAYER, WIN_WIDTH, WIN_HEIGHT
+from code.Const import SPEED_PLAYER, WIN_WIDTH, WIN_HEIGHT, PLAYER_KEY_CUT
 from code.Entity import Entity
+from code.PlayerCut import PlayerCut
 
 
 class Player(Entity):
@@ -20,7 +21,7 @@ class Player(Entity):
         self.current_sprite = 0  # Índice do sprite atual
         self.image = self.sprites[self.current_sprite]
         self.last_update = pygame.time.get_ticks()  # Tempo da última troca de sprite
-        self.animation_delay = 1000  # Tempo de troca de sprite (1 segundo)
+        self.animation_delay = 40  # Tempo de troca de sprite (1 segundo)
 
     def update(self):
         self.move()
@@ -53,3 +54,9 @@ class Player(Entity):
             self.last_update = now
             self.current_sprite = (self.current_sprite + 1) % len(self.sprites)
             self.image = self.sprites[self.current_sprite]
+            self.surf = self.image
+
+    def cut(self):
+        pressed_key = pygame.key.get_pressed()
+        if pressed_key[PLAYER_KEY_CUT[self.name]]:
+            PlayerCut(name=f'{self.name}Cut', position=(self.rect.centerx, self.rect.centery))

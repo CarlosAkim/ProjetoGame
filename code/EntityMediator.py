@@ -18,7 +18,9 @@ class EntityMediator:
             EntityMediator.__verifyCollissionWindow(test_entity)
 
     @staticmethod
-    def verifyHealth(entity_list: list[Entity]):
+    def verifyHealth(entity_list):
         for ent in entity_list:
-            if ent.health <= 0:
-                entity_list.remove(ent) # Exclui a entidade
+            if ent is not None and hasattr(ent, "health"):
+                if ent.health <= 0:
+                    print(f"{ent.name} foi removido!")
+                    entity_list.remove(ent)
