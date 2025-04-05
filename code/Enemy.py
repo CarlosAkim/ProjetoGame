@@ -7,10 +7,16 @@ class Enemy(Entity):
     def __init__(self, name: str, position: tuple):
         super().__init__(name, position)
         # Lista de sprites do personagem
-        self.sprites = [
-            pygame.image.load(f"Asset/Enemy{i}.png") for i in range(12)
+        if self.name == 'Enemy1':
+            self.sprites = [
+                pygame.image.load(f"Asset/Enemy{i}.png") for i in range(12)
 
-        ]
+            ]
+        elif self.name == 'Enemy2':
+            self.sprites = [
+                pygame.image.load(f"Asset/Enemy2/Enemy{i}.png") for i in range(12)
+
+            ]
         self.current_sprite = 0  # Índice do sprite atual
         self.image = self.sprites[self.current_sprite]
         self.last_update = pygame.time.get_ticks()  # Tempo da última troca de sprite

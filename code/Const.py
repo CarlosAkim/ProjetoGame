@@ -36,6 +36,7 @@ SPEED_BACKGROUND = {
 }
 SPEED_ENEMY = {
     'Enemy1': 2,
+    'Enemy2': 3,
 }
 
 SPEED_PLAYER={
