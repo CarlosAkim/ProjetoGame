@@ -9,6 +9,7 @@ from code.Const import COLOR_WHITE, WIN_WIDTH, EVENT_ENEMY
 from code.Entity import Entity
 from code.EntityFactory import EntityFactory
 from code.EntityMediator import EntityMediator
+from code.Player import Player
 
 
 class Level:
@@ -40,6 +41,11 @@ class Level:
             for ent in self.entity_list:
                 self.window.blit(source=ent.surf, dest=ent.rect)
                 ent.move()
+                if isinstance(ent, Player):
+                    cut = ent.cut()
+                    if cut is not None:
+                        self.entity_list.append(cut)
+                        #self.entity_list.remove(cut)
             for event in pygame.event.get(): # para não bugar na hora de fechar
                 if event.type == pygame.QUIT:
                     pygame.quit()

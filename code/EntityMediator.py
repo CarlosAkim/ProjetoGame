@@ -1,5 +1,9 @@
+from pygame.examples.moveit import HEIGHT
+
+from code.Const import WIN_HEIGHT
 from code.Enemy import Enemy
 from code.Entity import Entity
+from code.Player import Player
 
 
 class EntityMediator:
@@ -8,6 +12,9 @@ class EntityMediator:
     def __verifyCollissionWindow(ent: Entity):
         if isinstance(ent, Enemy):
             if ent.rect.right < 0:
+                ent.health = 0
+        if isinstance(ent, Player):
+            if ent.rect.left >= WIN_HEIGHT:
                 ent.health = 0
         pass
 

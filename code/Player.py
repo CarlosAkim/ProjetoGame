@@ -1,5 +1,5 @@
 import pygame
-from code.Const import SPEED_PLAYER, WIN_WIDTH, WIN_HEIGHT, PLAYER_KEY_CUT
+from code.Const import SPEED_PLAYER, WIN_WIDTH, WIN_HEIGHT, PLAYER_KEY_CUT, ENTITY_SHOT_DELAY
 from code.Entity import Entity
 from code.PlayerCut import PlayerCut
 
@@ -7,6 +7,8 @@ from code.PlayerCut import PlayerCut
 class Player(Entity):
     def __init__(self, name: str, position: tuple):
         super().__init__(name, position)
+
+        self.cutDelay = ENTITY_SHOT_DELAY[self.name]
 
         # Lista de sprites do personagem
         self.sprites = [
@@ -57,6 +59,9 @@ class Player(Entity):
             self.surf = self.image
 
     def cut(self):
-        pressed_key = pygame.key.get_pressed()
-        if pressed_key[PLAYER_KEY_CUT[self.name]]:
-            PlayerCut(name=f'{self.name}Cut', position=(self.rect.centerx, self.rect.centery))
+        self.cutDelay -= 1
+        if self.cutDelay == 0:
+            self.cutDelay = ENTITY_SHOT_DELAY[self.name]
+            pressed_key = pygame.key.get_pressed()
+            if pressed_key[PLAYER_KEY_CUT[self.name]]:
+                return PlayerCut(name=f'{self.name}Attack', position=(self.rect.centerx, self.rect.centery))

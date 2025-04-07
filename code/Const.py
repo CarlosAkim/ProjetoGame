@@ -17,8 +17,13 @@ ENTITY_HEALTH = {
     'level1Bg3': 999,
     'level1Bg4': 999,
     'level1Bg5': 999,
-    'PlayerRunning1': 300
+    'PlayerRunning1': 300,
+    'PlayerRunning1Attack': 1,
 
+}
+
+ENTITY_SHOT_DELAY = {
+    'PlayerRunning1': 20,
 }
 
 # M
